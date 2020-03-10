@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="228dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:text="Health Utilty v 1.0\nLicense: Free" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="355dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="97dp"
+        android:text="Developed By\nS. M. Akib Al Faisal\nID: 150101037 Dept.: CSE,\nBangladesh Army University of Science and Technology"
+        android:textSize="18sp" />
+</RelativeLayout>

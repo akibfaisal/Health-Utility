@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalorieActivity">
+    <TableRow
+        android:id="@+id/title"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="ক্যালরি চার্ট"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/header"
+        android:background="#b3b6bc"
+        >
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="খাদ্য"
+            android:layout_height="20dp"
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="পরিমান"
+            android:layout_height="20dp"
+            />
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="কিলক্যালরি"
+            android:layout_height="20dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/header1"
+        android:background="#b3b6bc"
+        >
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="ভাত"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১ কাপ"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১২০"
+            android:textSize="16sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/header2"
+        android:background="#b3b6bc"
+        >
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="ডিম"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১ "
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="৭২"
+            android:textSize="16sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/header3"
+        android:background="#b3b6bc"
+        >
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="বিরিয়ানি"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১ কাপ"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="২২৫"
+            android:textSize="16sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/header4"
+        android:background="#b3b6bc"
+        >
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="মসুর ডাল"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১০০ গ্রাম"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১১০"
+            android:textSize="16sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/header5"
+        android:background="#b3b6bc"
+        >
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="ব্রকলি"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="১০০ গ্রাম"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="৩২"
+            android:textSize="16sp" />
+
+    </TableRow>  <TableRow
+    android:id="@+id/header6"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="বাধাকপি"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০ গ্রাম"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="২০"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header7"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="গাজর"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০ গ্রাম"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="২৫"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header8"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="আলু ভাজি"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১ টি"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="২০০"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header9"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="গরুর মাংস"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০ গ্রাম"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১১৫"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header10"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="মুরগির মাংস"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০ গ্রাম"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="৮০"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header11"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="মাছ"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০ গ্রাম"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১০০"
+        android:textSize="16sp" />
+
+</TableRow>  <TableRow
+    android:id="@+id/header12"
+    android:background="#b3b6bc"
+    >
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="দুধ"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="২২৫ মিলি"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="১৫০"
+        android:textSize="16sp" />
+
+</TableRow>
+
+</TableLayout>

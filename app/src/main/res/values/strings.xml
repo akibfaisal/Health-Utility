@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health Utility</string>
+    <string name="bmi">BMI Calculator</string>
+    <string name="about">About</string>
+    <string name="health_info">Health Info</string>
+    <string name="calorie_info">Calorie Chart</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+</resources>

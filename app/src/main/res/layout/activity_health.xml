@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="13dp"
+        android:text="Ideal Weight Calculator:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="168dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ft"
+        android:layout_marginTop="84dp"
+        android:text="Enter Height (Ft)" />
+
+    <EditText
+        android:id="@+id/inch"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ft"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Inch" />
+
+
+    <EditText
+        android:id="@+id/ft"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ft" />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="155dp"
+        android:layout_marginStart="81dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="325dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="215dp"
+        android:text="*For 18 years and above"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
